@@ -1,0 +1,145 @@
+body {
+    font-family: 'Alatsi', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(15, 14, 14, 0.911);
+    margin: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 120px;
+    padding: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+     }
+     .pic{width:300px;
+        magrin:auto;
+        text-align: center;
+
+     }
+
+    .pic img{
+         border-radius: 50%;
+         border: 5px solid  rgba(240, 60, 47, 0.76);;
+
+     }
+  
+  .title {
+    font-size: 58px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    animation:heartBeat; 
+    animation-duration: 2s;
+  }
+  p{
+      font-size: 25px;
+      text-align: center;
+      line-height: 30px;
+      font-family: 'Source Code Pro', monospace;
+  }
+  
+  canvas {
+    width: 100%;
+  }
+  
+body{
+    margin:auto 0 ;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: rgba(240, 60, 47, 0.76);
+    height:"50px"
+}
+.head1{
+    margin: 20px;
+    color: cornsilk;
+}
+
+.main{
+    list-style: none;
+    display: flex;
+    margin: 2px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+    text-transform: uppercase;
+}
+.left{
+    display: inline-flex;
+    position: relative;
+    margin-left:800px;
+    padding: 10px;
+}
+.head{
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 13px;}
+.head1{
+    font-size: 30px;
+}
+
+/*Myhobbies*/
+
+.container_1{
+    display: block;
+    color: bisque;
+    margin-top: 30px;
+}
+
+.gun{
+    list-style: none;
+    border: 2px solid green;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+    background-color:rgba(128, 128, 128, 0.411) ;
+    border-radius: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-weight: bolder;
+}
+.bg{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(214, 210, 218);
+    text-decoration: underline;
+    animation: backInLeft; 
+    animation-duration: 2s;
+}
+
+
+
+.bg_1{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+
+
+.fg{
+    animation: flipInY; 
+    animation-duration: 2s;
+}
+
+
+#actv a{text-decoration: upper-alpha; color: black; font-weight: bold; text-decoration: underline;}
